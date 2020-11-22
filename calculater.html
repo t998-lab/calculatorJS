@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+           <link rel="stylesheet" href="calculater.css">
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="calculater.js"></script>
+        </head>
+        <body>
+          <form>
+            <h2>Calculator</h2>
+            <table border="1">
+                
+                <tr><th id="operation" colspan="4"></th></tr>
+                <tr>
+                    <td><input type="button" value="7" class="num" onclick="add('7');"></td>
+                    <td><input type="button" value="8" class="num" onclick="add('8')";></td>
+                    <td><input type="button" value="9" class="num" onclick="add('9')";></td>
+                    <td><input type="button"  value="=" onclick="add('=');" class="op"></td>
+                    
+                </tr>
+                 <tr>
+                    <td><input type="button" value="4" class="num" onclick="add('4');"></td>
+                    <td><input type="button" value="5" class="num" onclick="add('5');"></td>
+                    <td><input type="button" value="6" class="num" onclick="add('6');"></td>
+                    <td><input type="button" value="/" onclick="add('/');" class="op"></td>
+                    
+                    
+                </tr>
+                  <tr>
+                    <td><input type="button" value="1" class="num" onclick="add('1');"></td>
+                    <td><input type="button" value="2" class="num" onclick="add('2');"></td>
+                    <td><input type="button" value="3" class="num" onclick="add('3');"></td>
+                     <td><input type="button" value="*" class="op" onclick="add('*');"></td>
+                    
+                    
+                </tr>
+                   <tr>
+                    <td><input type="button" value="+" class="op" onclick="add('+');"></td>
+                     <td><input type="button"value="0" onclick="add('0');"></td>
+                    <td><input type="button" value="-" class="op" onclick="add('-');"></td>
+                   
+                
+                   </tr>
+                   <tr>
+                    <th colspan="4" id="result"></th>
+                   </tr>
+            </table>
+          </form>
+          
+          
+          
+        </body>
+    </html>
